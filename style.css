@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    background-color: rgb(28, 25, 25);
+    color: #ffffff;
+    margin-left: 3px;
+}
+
+
+#header {
+    height: 45px;
+    width: 100%;
+
+    border-radius: 7px;
+    position: sticky;
+    top: 0px;
+    background-color: #0f1111;
+    background-image: url("htmlcover.png");
+    background-size: contain;
+
+
+
+
+}
+
+#intro {
+    height: 500px;
+    width: 100%;
+
+
+}
+
+#container {
+
+    height: 190px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#vd {
+    margin-right: 1px;
+}
+
+#theory2 {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#box1 {
+    height: 400px;
+    width: 350px;
+    border: 2px solid white;
+    display: inline-block;
+    box-shadow: 4px 4px 20px orange;
+
+
+}
+
+#box2 {
+    height: 400px;
+    width: 350px;
+    border: 2px solid white;
+    display: inline-block;
+    box-shadow: 4px 4px 20px orange;
+
+
+}
+
+#box3 {
+    height: 400px;
+    width: 350px;
+    border: 2px solid white;
+    display: inline-block;
+    box-shadow: 4px 4px 20px orange;
+
+}
+
+#box1:hover {
+    height: 420px;
+    width: 370px;
+    box-shadow: 4px 4px 20px blueviolet;
+
+}
+
+#box2:hover {
+    height: 420px;
+    width: 370px;
+    box-shadow: 4px 4px 20px blueviolet;
+
+}
+
+#box3:hover {
+    height: 420px;
+    width: 370px;
+    box-shadow: 4px 4px 20px blueviolet;
+}
+
+#theory3 {
+    height: 590px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+#box21 {
+    height: 500px;
+    width: 600px;
+    border: 2px solid white;
+    display: inline-block;
+    box-shadow: 4px 4px 20px orange;
+}
+
+#box22 {
+    height: 500px;
+    width: 600px;
+    border: 2px solid white;
+    display: inline-block;
+    box-shadow: 4px 4px 20px orange;
+}
+
+#theory4 {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#box31 {
+    height: 550px;
+    width: 85%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 4px 4px 20px orange;
+
+
+
+}
+
+#demo {
+    height: 510px;
+    width: 810px;
+    display: inline-block;
+
+
+}
+
+#vdoo {
+    height: 510px;
+    width: 400px;
+
+    display: inline-block;
+
+
+}
+
+#box21:hover {
+    height: 520px;
+    width: 620px;
+    box-shadow: 4px 4px 20px blueviolet;
+}
+
+#box22:hover {
+    height: 520px;
+    width: 620px;
+    box-shadow: 4px 4px 20px blueviolet;
+}
+
+#box31:hover {
+    height: 570px;
+    width: 86%;
+    box-shadow: 4px 4px 20px blueviolet;
+}
+
+footer {
+    background: rgb(28, 25, 25);
+    ;
+    padding-top: 50px;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    width: 33.3%;
+}
+
+.h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footer-content p {
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+}
+
+.footer-content ul {
+    text-align: center;
+}
+
+.list {
+    padding: 0;
+}
+
+.list li {
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+
+.list li::before 
+{
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition-duration: .5s;
+}
+
+.list li:hover::before 
+{
+    width: 70px;
+}
+
+.social-icons {
+    text-align: center;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.social-icons i {
+    color: white;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f18930;
+}
+
+.social-icons i:hover {
+    color: #f18930;
+}
+
+.bottom-bar {
+    background: rgb(28, 25, 25);
+    ;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+.bottom-bar p {
+    color: #f7f4f4;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
